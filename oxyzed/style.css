@@ -1,0 +1,44 @@
+
+@media screen and (max-width: 480px) {
+    html {
+    scroll-behavior:smooth;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    }}
+  html {
+    scroll-behavior:smooth;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
+
+  .my-style:hover {
+    color: red;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
+  .my-style-2:hover {
+    background-color: red;
+    color: white;
+    transition: 0.3s ease-in;
+  }
+  @media only screen and (max-width:780px){
+    .citem{
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+  }}
+
+
+#preloader{
+  background: #000 url(img/loader3.gif) no-repeat center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
