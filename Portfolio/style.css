@@ -1,0 +1,15 @@
+html {
+  background-image: url(img/bg-design.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 480px) {
+  html {
+    background-image: url(img/bg-pdone.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
